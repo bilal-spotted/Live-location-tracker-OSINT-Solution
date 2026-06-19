@@ -1,3 +1,29 @@
+# Python Runtime & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+venv/
+env/
+.env
+
+# Node.js / React Dependencies & Builds
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+
+# C++ Build Artifacts & Formats
+*.obj
+*.o
+*.ilk
+*.pdb
+*.exp
+*.suo
+*.user
+
 # Python / Flask
 __pycache__/
 *.py[cod]
