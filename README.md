@@ -4,21 +4,21 @@ A full-stack, hybrid intelligence system designed for real-time geolocation trac
 
 Standard location trackers rely on easily spoofed browser APIs. I engineered this system to bypass those limitations by combining a React frontend and Python Flask backend with high-performance C++ shared libraries. It actively validates network integrity, detects VPNs/Proxies, and performs multi-threaded social media validation without compromising UI responsiveness.
 
-## 🚀 Core Architecture & Features
+## Core Architecture & Features
 
 * **High-Performance Geofencing (C++ DLLs):** To prevent system bottlenecking, computationally intensive geometric algorithms (Ray Casting and the Shoelace Formula) were offloaded to custom-compiled C++ shared libraries. This allows the system to calculate territorial geofences in microseconds, scaling effortlessly to thousands of coordinate points.
 * **Multi-Threaded OSINT Scanning:** The backend engine performs simultaneous data validation across 10+ target websites. By implementing advanced multithreading, the system prevents data-processing freezes, keeping the React/Leaflet UI entirely responsive during deep scans.
 * **Network Heuristics & Validation:** Integrates GeoIP2 database heuristics for accurate VPN and proxy detection, alongside SMTP MX Record logic to strictly validate email address authenticity.
 * **"Brutal Mode" Build:** A highly optimized, production-ready state that adheres to strict industry standards for memory management, modularity, and error handling.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Frontend:** React.js, Leaflet API (MapContainer / Marker rendering)
 * **Backend:** Python (Flask), Multi-threading modules
 * **Low-Level Processing:** C++ (Compiled DLLs for geometric algorithms)
 * **Concepts Applied:** Data Structures & Algorithms, Computer Organization, Assembly-level Memory Management, Hybrid Full-Stack Design.
 
-## ⚙️ Project Structure & Setup
+## Project Structure & Setup
 
 This repository contains the core logic for the hybrid system. 
 
