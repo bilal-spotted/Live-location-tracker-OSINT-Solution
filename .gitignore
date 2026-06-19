@@ -1,0 +1,25 @@
+# Python / Flask
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Node.js / React
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+dist/
+
+# C++ / Compiled files
+*.obj
+*.o
+*.ilk
+*.pdb
+*.exp
+
+# OS generated files
+.DS_Store
+Thumbs.db
