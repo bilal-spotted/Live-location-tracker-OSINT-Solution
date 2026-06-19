@@ -1,4 +1,4 @@
-# Live Location Tracker & OSINT Network Analyzer
+# Live Location Tracker & OSINT Solution
 
 A full-stack, hybrid intelligence system designed for real-time geolocation tracking, deep Open-Source Intelligence (OSINT) analysis, and network heuristics. 
 
